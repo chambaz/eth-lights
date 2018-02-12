@@ -4,9 +4,7 @@
   "description": "Visualize ETH price with Hue lights",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
