@@ -1,7 +1,7 @@
 {
   "name": "hue-lights",
   "version": "0.0.0",
-  "description": "Visualize ETH value with Hue lights",
+  "description": "Visualize ETH price with Hue lights",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/chambaz/eth-lights#readme",
   "dependencies": {
+    "node-fetch": "^2.0.0",
     "node-hue-api": "^2.4.2"
   }
 }
