@@ -1,0 +1,24 @@
+{
+  "name": "hue-lights",
+  "version": "0.0.0",
+  "description": "Visualize ETH value with Hue lights",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chambaz/eth-lights.git"
+  },
+  "author": "Adam Chambers <@chambaz>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chambaz/eth-lights/issues"
+  },
+  "homepage": "https://github.com/chambaz/eth-lights#readme",
+  "dependencies": {
+    "node-hue-api": "^2.4.2"
+  }
+}
